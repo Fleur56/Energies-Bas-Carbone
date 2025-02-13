@@ -4,72 +4,39 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+Ce projet vise à développer des solutions énergétiques bas carbone utilisant des ressources non rares, non polluantes et abondantes pour réduire notre dépendance aux combustibles fossiles et lutter contre le changement climatique.
+« Projet de cours sur la construction de l’IA »
 
+## Contexte
+Le monde fait face à une crise énergétique et environnementale causée par l'utilisation intensive de combustibles fossiles. Le passage à des sources d'énergie propres, durables et abondantes est essentiel pour atténuer les effets du changement climatique et assurer un avenir durable.
+- Problème 1 : Dépendance aux combustibles fossiles
+- Problème 2 : Émissions de gaz à effet de serre
+- Problème 3 : Rareté des ressources traditionnelles
 
-## Background
+## Utilisation
+Ce projet propose des solutions innovantes pour utiliser des ressources telles que l'énergie solaire, éolienne, hydraulique et géothermique. Ces solutions peuvent être appliquées dans divers environnements, allant des zones urbaines aux régions rurales. Les utilisateurs potentiels incluent les gouvernements, les entreprises et les particuliers.
+![Panneaux Solaires](https://upload.wikimedia.org/wikipedia/commons/2/27/Rooftop_Solar_Panel_and_Gas_Meter_in_Germantown_Tennessee.jpg)
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+## Sources de données et méthodes d'IA
+Les données proviennent de sources publiques telles que les agences gouvernementales, les organismes de recherche et les bases de données open source. L'analyse des données et les techniques d'IA utilisées comprennent :
+- Prédiction de la production d'énergie renouvelable
+- Optimisation des systèmes énergétiques
+- Modélisation de la demande énergétique
+[OpenStreetMap](https://www.openstreetmap.org) pour les données géographiques
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+## Défis
+Le projet ne résout pas tous les défis liés à la transition énergétique. Les limitations incluent :
+- Infrastructure existante
+- Coûts initiaux élevés
+- Variabilité des sources d'énergie renouvelable
+Les considérations éthiques incluent la gestion des terres et l'impact sur les écosystèmes locaux.
 
+## Et après ?
+Le projet peut évoluer en intégrant des technologies avancées comme le stockage d'énergie, les réseaux intelligents et l'intelligence artificielle pour optimiser la gestion de l'énergie. Des compétences en ingénierie, en sciences des données et en politique énergétique seraient nécessaires pour avancer.
+![Turbines Éoliennes](https://upload.wikimedia.org/wikipedia/commons/4/4b/Les_Moulins_de_Falaise.JPG)
 
-## How is it used?
-
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
-
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-## Challenges
-
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
-
-## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
-
-## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+## Remerciements
+- Sources d'inspiration : Énergies renouvelables et durables
+- Code et données open source utilisés : [OpenStreetMap](https://www.openstreetmap.org)
+- Images : [Solar Panels by Germantown Tennessee](https://upload.wikimedia.org/wikipedia/commons/2/27/Rooftop_Solar_Panel_and_Gas_Meter_in_Germantown_Tennessee.jpg) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+- [Wind Turbines by Les Moulins de Falaise](https://upload.wikimedia.org/wikipedia/commons/4/4b/Les_Moulins_de_Falaise.JPG) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
